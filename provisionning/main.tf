@@ -23,3 +23,6 @@ module "volume" {
 module "container" {
     source = "./modules/container"
 }
+ module "tag-and-push" {
+  source = "./modules/tag-and-push"
+ }
